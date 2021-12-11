@@ -1,0 +1,32 @@
+.navbar-nav .nav-link {
+    color: rgba(0,0,0,1) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.5) !important;
+}
+
+.img-fluid {
+  display: flex;
+  align-items: center; /*vertical align*/
+  justify-content: center; /*horizontal align*/
+  height: 400px;
+  width:400px;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+}
+
+#blogtitle {
+    font-size: 8rem;
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 4rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
